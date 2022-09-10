@@ -11,7 +11,15 @@
 // Type Aliases
 // String Literal Types
 
+import {useEffect, useState} from "react";
+
 export function ComponentBasicTypes() {
+  // const [todos, setTodos] = useState()
+  // useEffect(() => {
+  //   fetch('https://jsonplaceholder.typicode.com/todos')
+  //     .then(response => response.json())
+  //     .then(json => console.log(json))
+  // }, [])
   const a = 2
 
   return <> {a}</>
